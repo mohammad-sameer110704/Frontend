@@ -1,0 +1,39 @@
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@keyframes con{
+  0%{rotate: 0deg; color: orange;opacity: 1;}
+  50%{rotate: 180deg; color: yellow; opacity: 0.5;}
+  100%{rotate: 360deg; color: red;opacity: 0;}
+
+}
+
+.card1,.card2,.card3,.card4{
+    height: 500px;
+    width: 270px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px rgb(159, 148, 148);
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    background-color:rgb(125, 132, 156)
+}
+img{
+    right: 50px;
+    height: 200px;
+    width: 270px;
+    border-bottom-right-radius: 60px;
+}
+.card1:hover{
+    transform: scale(1.1);  
+    transition: all 0.3s ease-in-out;
+
+}
+.card1_1,.card2_2,.card3_3,.card4_4{
+    background-color: rgb(161, 88, 166);
+    border-radius: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 30px;
+}
